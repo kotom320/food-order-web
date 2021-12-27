@@ -1,17 +1,14 @@
-import classes from './HeaderCartButton.module.css'
-import cartIcon from '../../assets/cart.png'
-const HeaderCartButton = (props) =>{
-    return <button className={classes.button}>
-<span className={classes.icon}>
-    <img src={cartIcon}></img>
-</span>
-<span>
-    Your Cart
-</span>
-<span className={classes.badge}>
-    3
-</span>
-
+import classes from "./HeaderCartButton.module.css";
+import cartIcon from "../../assets/cart.png";
+const HeaderCartButton = (props) => {
+  return (
+    <button className={classes.button}>
+      <span className={classes.icon}>
+        <img src={cartIcon}></img>
+      </span>
+      <span>Your Cart</span>
+      <span className={classes.badge}>3</span>
     </button>
-}
-export default HeaderCartButton
+  );
+};
+export default HeaderCartButton;
